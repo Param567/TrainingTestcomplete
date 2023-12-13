@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{F94D9EC5-E447-465B-AB2A-688C09218FC9}">
+	<children>
+		<child name="TestAutomationForm" key="{2C3D4404-E773-46BA-AC8E-F842DFE95DB0}" path="TestAutomationForm\TestAutomationForm.mds" />
+	</children>
+	<testItems key="{2DF8D463-58D3-4EFC-9C5E-730501088F8A}">
+		<children>
+			<testItem key="{2C3D4404-E773-46BA-AC8E-F842DFE95DB0}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{1EE53864-469D-4365-8BF5-937D912C909F}" />
+	<analysis key="{B66CA5BD-FDDB-4BBC-A5C9-E25716A890EE}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

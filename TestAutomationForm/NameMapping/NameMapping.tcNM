@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{96B3044D-FDEF-4323-855A-BE35919444C3}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{D48F6CF5-6126-4A77-961F-09718244F26B}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{32B66960-43E3-4A38-B2B4-0A7129628200}">
+								<Image FileName="-342237051" Left="-11" Top="-11" Right="1931" Bottom="1031" />
+								<TypeInfo Item0="{CD3E259F-0E39-48C9-8912-84F08A23EDD8}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageInputValidation" Key="{6625BCF6-E67A-4081-BFF4-F18981619BD2}">
+								<Image FileName="791238704" Left="0" Top="115" Right="1920" Bottom="1019" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://testpages.eviltester.com/styled/validation/input-validation.html" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Country" Key="{C7942C6F-C628-441D-927C-0C56746DA822}">
+										<Image FileName="791238704" Left="226" Top="1127" Right="566" Bottom="1153" />
+										<TypeInfo Item0="{A5CCC2D8-AE9E-417F-83F3-C83A2E61CD21}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//select[@id=(//label[.=&apos;Country:&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="css=#country" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="FirstName" Key="{7FDC4C53-2DAE-4002-8D33-9EE6DA6EF5DB}">
+										<Image FileName="949057480" Left="226" Top="479" Right="659" Bottom="527" />
+										<TypeInfo Item0="{5422BD2D-18BD-440F-A76A-A6D14EEB4E10}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//input[@id=(//label[.=&apos;First name:&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="css=#firstname" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//input[@name=&apos;firstname&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="LastName" Key="{8237A493-965E-472F-A0F8-4597891B8F00}">
+										<Image FileName="-1972259050" Left="226" Top="593" Right="659" Bottom="641" />
+										<TypeInfo Item0="{5422BD2D-18BD-440F-A76A-A6D14EEB4E10}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//input[@id=(//label[.=&apos;Last name:&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="css=#surname" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//input[@name=&apos;surname&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="Age" Key="{EA50B601-7D38-4204-B1FB-301445B38FB8}">
+										<Image FileName="1202122697" Left="226" Top="707" Right="371" Bottom="755" />
+										<TypeInfo Item0="{6C55D824-83C5-4A8A-8311-192313F5B303}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//input[@id=(//label[.=&apos;Age:&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="css=#age" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//input[@name=&apos;age&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="Notes" Key="{4193EF5F-2FA5-4CFA-B715-F0190DFA7D8C}">
+										<Image FileName="-751344453" Left="226" Top="637" Right="479" Bottom="691" />
+										<TypeInfo Item0="{6C55D824-83C5-4A8A-8311-192313F5B303}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//textarea[@id=(//label[.=&apos;Notes:&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="css=#notes" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//textarea" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbutton" Key="{66CC6CFF-0C2A-4A7E-BB67-58EBEAE013FF}">
+										<Image FileName="497827644" Left="226" Top="731" Right="358" Bottom="779" />
+										<TypeInfo Item0="{7908348A-1D17-419D-A31B-B70A17C60427}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@type=&apos;submit&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageInputValidation2" Key="{FBE693C7-0012-4DC6-A759-E932613F4360}">
+								<Image FileName="791238704" Left="0" Top="115" Right="1920" Bottom="1019" />
+								<TypeInfo Item0="{22201A0F-E32F-4C50-BECC-3EA3B58F4641}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://testpages.eviltester.com/validate/input-validation" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="linkBacktoform" Key="{51BFABC1-4018-4DED-B9D4-69AB9E58D933}">
+										<Image FileName="1333420990" Left="226" Top="740" Right="518" Bottom="778" />
+										<TypeInfo Item0="{6C55D824-83C5-4A8A-8311-192313F5B303}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#backtoform" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;Back to Input Form&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{D48F6CF5-6126-4A77-961F-09718244F26B}">
+			<Child Name="BrowserWindow" Owner="{32B66960-43E3-4A38-B2B4-0A7129628200}" />
+			<Child Name="pageInputValidation" Owner="{6625BCF6-E67A-4081-BFF4-F18981619BD2}">
+				<Child Name="Country" Owner="{C7942C6F-C628-441D-927C-0C56746DA822}" />
+				<Child Name="FirstName" Owner="{7FDC4C53-2DAE-4002-8D33-9EE6DA6EF5DB}" />
+				<Child Name="LastName" Owner="{8237A493-965E-472F-A0F8-4597891B8F00}" />
+				<Child Name="Age" Owner="{EA50B601-7D38-4204-B1FB-301445B38FB8}" />
+				<Child Name="Notes" Owner="{4193EF5F-2FA5-4CFA-B715-F0190DFA7D8C}" />
+				<Child Name="submitbutton" Owner="{66CC6CFF-0C2A-4A7E-BB67-58EBEAE013FF}" />
+			</Child>
+			<Child Name="pageInputValidation2" Owner="{FBE693C7-0012-4DC6-A759-E932613F4360}">
+				<Child Name="linkBacktoform" Owner="{51BFABC1-4018-4DED-B9D4-69AB9E58D933}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
